@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffff00;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.fancy-box {
+    background-color: #ffffff;
+    border: 2px solid #ffff00;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.roadmap {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.roadmap li {
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.roadmap li:last-child {
+    border-bottom: none;
+}
+
+.claim-token {
+    margin-top: 20px;
+}
+
+.connect-wallet, .claim-button {
+    background-color: #ffff00;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.connect-wallet:hover, .claim-button:hover {
+    background-color: #ffcc00;
+}
+
+.claim-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
